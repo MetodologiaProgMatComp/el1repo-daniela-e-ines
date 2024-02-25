@@ -1,16 +1,21 @@
 package es.uah.matcomp.mp.e1.ejerciciosclases;
 
 public class Circle {
+
+    //Atributos
     private double radio;
 
+    //Constructor 1
     public Circle(){
         this.radio = 1;
     }
 
+    //Constructor 2
     public Circle (double r){
         this.radio = r;
     }
 
+    //Getters y Setters
     public double getRadio() {
         return radio;
     }

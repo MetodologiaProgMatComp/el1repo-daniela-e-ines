@@ -1,22 +1,22 @@
 package es.uah.matcomp.mp.e1.ejerciciosclases;
 
 public class Employee {
-    //Definir variables, privadas
+
+    //Atributos
     private int id;
     private String firstName;
     private String lastName;
     private int salary;
-    private String name;
 
-    //Constructores
-    public Employee (int i, String fN, String lN, int s){
-        this.id = i;
-        this.firstName = fN;
-        this.lastName = lN;
-        this.salary = s;
-        this.name = fN + " " + lN;
+    //Constructor 1
+    public Employee (int id, String firstName, String lastName, int salary){
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.salary = salary;
     }
 
+    //Getters y Setters
     public int getId() {
         return id;
     }
@@ -30,7 +30,8 @@ public class Employee {
     }
 
     public String getName() {
-        return firstName + " " + lastName;
+        String name = firstName + " " + lastName;
+        return name;
     }
 
     public int getSalary() {
@@ -46,15 +47,16 @@ public class Employee {
     }
 
     public int raiseSalary(int percent){
-        return salary + salary*percent/100;
+        this.salary = salary + (salary*percent/100);
+        return salary;
     }
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "Employee[" +
                 "id=" + id +
-                ", name= " + name +
+                ", name='" + getName() + '\'' +
                 ", salary=" + salary +
-                '}';
+                ']';
     }
 }

@@ -2,10 +2,15 @@ package es.uah.matcomp.mp.e1.ejerciciosclases;
 
 public class TestEmployee {
     public static void main (String[]args){
+
+        //Objeto 1: e1
         Employee e1 = new Employee (8, "Peter", "Tan", 2500);
         System.out.println(e1);
 
+        //Cambiar valor salary
         e1.setSalary(999);
+
+        //Test getters
         System.out.println(e1);
         System.out.println("id is: " + e1.getId());
         System.out.println("firstname is: " + e1.getFirstName());

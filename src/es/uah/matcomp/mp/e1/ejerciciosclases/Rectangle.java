@@ -1,20 +1,24 @@
 package es.uah.matcomp.mp.e1.ejerciciosclases;
 
 public class Rectangle {
-    //Definir variables, privadas
+
+    //Atributos
     private float length;
     private float width;
 
+    //Constructor 1
     public Rectangle() {
         this.length = 1.0f;
         this.width = 1.0f;
     }
 
-    public Rectangle(float l, float w) {
-        this.length = l;
-        this.width = w;
+    //Constructor 2
+    public Rectangle(float length, float width) {
+        this.length = length;
+        this.width = width;
     }
 
+    //Getters y Setters
     public float getLength() {
         return length;
     }
