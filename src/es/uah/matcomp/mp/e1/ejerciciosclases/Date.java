@@ -47,7 +47,7 @@ public class Date {
 
     @Override
     public String toString() {
-        return String.format("%02d",day) +
+        return String.format("%02d",day) +          //%02d: dos cifras
                 "/" + String.format("%02d",month) +
                 "/" + year;
     }
