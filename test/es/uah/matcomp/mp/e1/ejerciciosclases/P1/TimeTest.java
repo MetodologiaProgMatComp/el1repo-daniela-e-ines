@@ -47,14 +47,23 @@ class TimeTest {
 
     @Test
     void setTime() {
+        Time t1 = new Time(1, 2, 3);
+        assertDoesNotThrow(()->t1.setTime(10,20,30));
+        assertEquals(10, t1.getHour());
+        assertEquals(20, t1.getMinute());
+        assertEquals(30, t1.getSecond());
     }
 
     @Test
     void testToString() {
+        Time t1 = new Time(1, 2, 3);
+        assertEquals("01:02:03", t1.toString());
     }
 
     @Test
     void nextSecond() {
+        Time t1 = new Time(1, 2, 3);
+        assertEquals(new Time (01,02,04), t1.nextSecond());
     }
 
     @Test

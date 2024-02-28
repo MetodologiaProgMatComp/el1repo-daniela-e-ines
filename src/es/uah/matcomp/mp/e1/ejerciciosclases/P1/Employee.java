@@ -55,8 +55,8 @@ public class Employee {
     public String toString() {
         return "Employee[" +
                 "id=" + id +
-                ", name='" + getName() + '\'' +
-                ", salary=" + salary +
+                ",name=" + getName() +
+                ",salary=" + salary +
                 ']';
     }
 }
