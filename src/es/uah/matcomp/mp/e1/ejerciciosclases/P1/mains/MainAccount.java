@@ -1,6 +1,8 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases;
+package es.uah.matcomp.mp.e1.ejerciciosclases.P1.mains;
 
-public class TestAccount {
+import es.uah.matcomp.mp.e1.ejerciciosclases.P1.Account;
+
+public class MainAccount {
     public static void main(String[]args) {
 
          //Objeto 1: a1

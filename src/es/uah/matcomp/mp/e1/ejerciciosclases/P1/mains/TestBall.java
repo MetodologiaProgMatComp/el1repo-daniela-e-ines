@@ -1,4 +1,6 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases;
+package es.uah.matcomp.mp.e1.ejerciciosclases.P1.mains;
+
+import es.uah.matcomp.mp.e1.ejerciciosclases.P1.Ball;
 
 public class TestBall {
     public static void main (String[]args){
