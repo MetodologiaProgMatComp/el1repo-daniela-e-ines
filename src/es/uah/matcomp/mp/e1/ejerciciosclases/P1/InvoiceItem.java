@@ -47,11 +47,11 @@ public class InvoiceItem {
 
     @Override
     public String toString() {
-        return "InvoiceItem{" +
-                "id='" + id + '\'' +
-                ", desc='" + desc + '\'' +
-                ", qty=" + qty +
-                ", unitPrice=" + unitPrice +
-                '}';
+        return "InvoiceItem[" +
+                "id=" + id +
+                ",desc=" + desc +
+                ",qty=" + qty +
+                ",unitPrice=" + unitPrice +
+                ']';
     }
 }

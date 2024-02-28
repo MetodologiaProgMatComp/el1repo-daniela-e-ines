@@ -3,9 +3,9 @@ package es.uah.matcomp.mp.e1.ejerciciosclases.P1.mains;
 import es.uah.matcomp.mp.e1.ejerciciosclases.P1.Account;
 
 public class MainAccount {
-    public static void main(String[]args) {
+    public static void main(String[] args) {
 
-         //Objeto 1: a1
+        //Objeto 1: a1
         Account a1 = new Account("A101", "Tan Ah Teck", 88);
         System.out.println(a1);
 

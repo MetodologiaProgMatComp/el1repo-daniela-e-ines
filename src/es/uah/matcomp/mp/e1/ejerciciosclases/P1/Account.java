@@ -49,8 +49,8 @@ public class Account {
 
     public int TransferTo (Account another, int amount){
         if (amount<=balance){
-            this.balance = balance - amount;
-            another.balance = amount;
+            this.balance -= amount;
+            another.balance += amount;
         } else {
             System.out.println("Amount exceeded balance");
         }
@@ -59,10 +59,10 @@ public class Account {
 
     @Override
     public String toString() {
-        return "Account{" +
+        return "Account[" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", balance=" + balance +
-                '}';
+                ']';
     }
 }
