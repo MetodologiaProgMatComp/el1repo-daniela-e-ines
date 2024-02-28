@@ -2,7 +2,7 @@ package es.uah.matcomp.mp.e1.ejerciciosclases.P1.mains;
 
 import es.uah.matcomp.mp.e1.ejerciciosclases.P1.Ball;
 
-public class TestBall {
+public class MainBall {
     public static void main (String[]args){
 
         //Objeto 1

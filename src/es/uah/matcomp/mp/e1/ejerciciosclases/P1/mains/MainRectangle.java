@@ -2,7 +2,7 @@ package es.uah.matcomp.mp.e1.ejerciciosclases.P1.mains;
 
 import es.uah.matcomp.mp.e1.ejerciciosclases.P1.Rectangle;
 
-public class TestRectangle {
+public class MainRectangle {
     public static void main (String[]args){
 
         //Objeto 1

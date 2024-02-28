@@ -14,10 +14,14 @@ class AccountTest {
 
     @Test
     void getName() {
+        Account a1 = new Account("1","Ana");
+        assertEquals("Ana",a1.getName());
     }
 
     @Test
     void getBalance() {
+        Account a1 = new Account("1","Ana");
+        assertEquals("Ana",a1.getName());
     }
 
     @Test

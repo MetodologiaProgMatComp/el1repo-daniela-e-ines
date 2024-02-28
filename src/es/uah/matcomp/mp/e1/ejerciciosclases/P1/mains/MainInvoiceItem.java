@@ -2,7 +2,7 @@ package es.uah.matcomp.mp.e1.ejerciciosclases.P1.mains;
 
 import es.uah.matcomp.mp.e1.ejerciciosclases.P1.InvoiceItem;
 
-public class TestInvoiceItem {
+public class MainInvoiceItem {
     public static void main(String[] args){
 
         //Objeto 1

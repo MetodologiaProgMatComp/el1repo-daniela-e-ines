@@ -1,5 +1,7 @@
 package es.uah.matcomp.mp.e1.ejerciciosclases.P1;
 
+import java.text.DecimalFormat;
+
 public class Time {
 
     //Atributos
@@ -53,32 +55,27 @@ public class Time {
     }
 
     public Time nextSecond(){
-        this.second += 1;
+        this.second ++;
         if (second == 60) {
-            this.minute += 1;
             this.second = 0;
+            this.minute ++;
             if (minute == 60) {
-                this.hour +=1;
                 this.minute = 0;
-                if (hour==24){
-                    this.hour = 0;
-                }
+                this.hour = (hour + 1) % 24;
             }
+
         }
         return new Time (hour, minute, second);
     }
 
     public Time previousSecond(){
-        this.second -= 1;
+        this.second --;
         if (second<0){
             this.second = 59;
-            this.minute -=1;
+            this.minute --;
             if (minute<0){
                 this.minute = 59;
-                this.hour -=1;
-                if (hour<0){
-                    this.hour=23;
-                }
+                this.hour = (hour - 1 + 24) % 24;
             }
         }
         return new Time (hour, minute, second);
