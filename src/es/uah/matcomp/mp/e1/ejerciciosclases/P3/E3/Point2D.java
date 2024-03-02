@@ -25,7 +25,4 @@ public class Point2D {
         this.x = x;
         this.y = y;
     }
-    public float getXY[2](){
-        return 0.0f;
-    }
 }
