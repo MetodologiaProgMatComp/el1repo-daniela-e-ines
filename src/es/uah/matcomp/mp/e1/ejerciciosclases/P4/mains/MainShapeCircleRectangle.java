@@ -1,10 +1,10 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.P6.mains;
+package es.uah.matcomp.mp.e1.ejerciciosclases.P4.mains;
 
 //import es.uah.matcomp.mp.e1.ejerciciosclases.P6.Shape;
 
-import es.uah.matcomp.mp.e1.ejerciciosclases.P6.Shape.Circle;
-import es.uah.matcomp.mp.e1.ejerciciosclases.P6.Shape.Rectangle;
-import es.uah.matcomp.mp.e1.ejerciciosclases.P6.Shape.Square;
+import es.uah.matcomp.mp.e1.ejerciciosclases.P4.Shape.Circle;
+import es.uah.matcomp.mp.e1.ejerciciosclases.P4.Shape.Rectangle;
+import es.uah.matcomp.mp.e1.ejerciciosclases.P4.Shape.Square;
 
 public class MainShapeCircleRectangle {
     public static void main(String[] args){
@@ -14,7 +14,9 @@ public class MainShapeCircleRectangle {
         System.out.println(s1.getPerimeter()); // which version? getPerimeter() obligado a tenerla por la clase Shape, pero personalizado
         System.out.println(s1.getColor());
         System.out.println(s1.isFilled());
-        System.out.println(s1.getRadius());
+        System.out.println(s1.getRadius()); // No se puede instanciar la clase abstracta Shape
+
+        //He modificado las partes en las que se trataba de instanciar Shape, para que así funcione
 
         Circle c1 = (Circle)s1; // Downcast back to Circle
         System.out.println(c1);

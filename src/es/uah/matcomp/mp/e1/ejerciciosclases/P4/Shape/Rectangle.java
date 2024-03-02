@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.P6.Shape;
+package es.uah.matcomp.mp.e1.ejerciciosclases.P4.Shape;
 
 //import es.uah.matcomp.mp.e1.ejerciciosclases.P6.Shape;
 
