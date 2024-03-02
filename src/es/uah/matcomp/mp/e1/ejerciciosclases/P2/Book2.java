@@ -23,7 +23,7 @@ public class Book2 {
 
     public String getName(){ return name;}
 
-    public Author[] getAuthor() {return authors;}
+    public Author[] getAuthors() {return authors;}
 
     public double getPrice() {return price;}
 

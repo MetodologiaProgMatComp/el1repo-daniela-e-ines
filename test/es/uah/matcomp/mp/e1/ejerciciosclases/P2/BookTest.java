@@ -13,12 +13,12 @@ class BookTest {
         assertEquals("more Java", anotherBook.getName());
     }
 
-    /*@Test
+    @Test
     void getAuthor() {
         Author authorej = new Author("Paul Tan", "paul@somewhere.com", 'm');
         Book anotherBook = new Book("more Java",authorej, 29.95);
-        assertEquals(authorej.toString(),anotherBook.getAuthor());
-    }*/
+        assertEquals(authorej,anotherBook.getAuthor());
+    }
 
     @Test
     void getPrice() {
