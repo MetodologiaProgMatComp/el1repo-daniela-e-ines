@@ -1,8 +1,6 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.P4.Shape;
+package es.uah.matcomp.mp.e1.ejerciciosclases.P3.E5;
 
-//import es.uah.matcomp.mp.e1.ejerciciosclases.P4.Shape;
-
-public class Rectangle extends Shape {
+public class Rectangle extends Shape{
     private double width = 1.0;
     private double length = 1.0;
 
@@ -17,16 +15,6 @@ public class Rectangle extends Shape {
         super(color, filled);
         this.width = width;
         this.length = length;
-    }
-
-    @Override
-    public String getColor() {
-        return super.getColor();
-    }
-
-    @Override
-    public boolean isFilled() {
-        return super.isFilled();
     }
 
     public double getWidth() {
@@ -45,12 +33,11 @@ public class Rectangle extends Shape {
         this.length = length;
     }
 
-    @Override
+
     public double getArea() {
         return width * length;
     }
 
-    @Override
     public double getPerimeter() {
         return 2*width + 2*length;
     }

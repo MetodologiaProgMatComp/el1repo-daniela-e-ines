@@ -1,8 +1,9 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.P4.Shape;
+package es.uah.matcomp.mp.e1.ejerciciosclases.P3.E5;
 
-abstract class Shape {
-    protected String color = "red";
-    protected boolean filled = true;
+public class Shape {
+
+    private String color = "red";
+    private boolean filled = true;
 
     public Shape() {}
 
@@ -27,9 +28,6 @@ abstract class Shape {
         this.filled = filled;
     }
 
-    public abstract double getArea();
-
-    public abstract double getPerimeter();
 
     @Override
     public String toString() {

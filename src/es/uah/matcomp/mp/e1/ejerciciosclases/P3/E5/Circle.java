@@ -1,6 +1,4 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.P4.Shape;
-
-//import es.uah.matcomp.mp.e1.ejerciciosclases.P4.Shape;
+package es.uah.matcomp.mp.e1.ejerciciosclases.P3.E5;
 
 public class Circle extends Shape{
     protected double radius = 1.0;
@@ -33,12 +31,10 @@ public class Circle extends Shape{
         this.radius = radius;
     }
 
-    @Override
     public double getArea() {
         return Math.PI * radius * radius;
     }
 
-    @Override
     public double getPerimeter() {
         return 2 * Math.PI * radius;
     }
