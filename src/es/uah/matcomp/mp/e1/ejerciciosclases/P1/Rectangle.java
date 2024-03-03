@@ -1,10 +1,8 @@
 package es.uah.matcomp.mp.e1.ejerciciosclases.P1;
 
 public class Rectangle {
-
-    //Atributos
-    private float length;
-    private float width;
+    private float length;       //Atributo de instancia
+    private float width;        //Atributo de instancia
 
     //Constructor 1
     public Rectangle() {

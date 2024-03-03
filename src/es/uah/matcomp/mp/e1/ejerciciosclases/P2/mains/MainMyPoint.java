@@ -32,7 +32,8 @@ public class MainMyPoint {
         // Mostrar la matriz de distancias entre todos los puntos
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
-                System.out.printf("Distancia entre p%d y p%d: %.2f%n", i + 1, j + 1, points[i].distance(points[j]));
+                System.out.printf("Distancia entre p%d y p%d: %.2f%n",
+                        i + 1, j + 1, points[i].distance(points[j]));
             }
         }
     }

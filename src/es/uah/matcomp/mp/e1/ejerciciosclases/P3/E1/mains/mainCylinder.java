@@ -20,5 +20,10 @@ public class mainCylinder {
                 ", volume= " + c3.getVolume());
 
         System.out.println(c3);
+
+        Cylinder c4 = new Cylinder(3.0, 5.0, "Amarillo");
+        System.out.println(c4);
+        c4.setHeight(2.00);
+        System.out.println("New height: " + c4.getHeight());
     }
 }

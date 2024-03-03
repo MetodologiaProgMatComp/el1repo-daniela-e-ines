@@ -1,9 +1,7 @@
 package es.uah.matcomp.mp.e1.ejerciciosclases.P1;
 
 public class Circle {
-
-    //Atributos
-    private double radio;
+    private double radio;      //Atributo de instancia
 
     //Constructor 1
     public Circle(){
