@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.P4.Movable;
+package es.uah.matcomp.mp.e1.ejerciciosclases.P4.E4;
 
 import org.junit.jupiter.api.Test;
 

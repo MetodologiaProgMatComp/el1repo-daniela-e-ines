@@ -17,16 +17,6 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
-    @Override
-    public String getColor() {
-        return shape.getColor();
-    }
-
-    @Override
-    public boolean isFilled() {
-        return shape.isFilled();
-    }
-
     public double getRadius() {
         return radius;
     }

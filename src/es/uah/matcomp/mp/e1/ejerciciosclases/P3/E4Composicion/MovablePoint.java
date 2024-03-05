@@ -50,13 +50,13 @@ public class MovablePoint extends Point {
     }
 
     public String toString() {
-        return super.toString() + "speed=(" + xSpeed + ',' + ySpeed + ')';
+        return point.toString() + "speed=(" + xSpeed + ',' + ySpeed + ')';
     }
 
     public MovablePoint move() {
         float newX = point.getX() + xSpeed;
         float newY = point.getY() + ySpeed;
-        setXY(newX,newY);
+        point.setXY(newX,newY);
         return this;
     }
 }
