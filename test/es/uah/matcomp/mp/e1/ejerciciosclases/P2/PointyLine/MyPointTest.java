@@ -1,5 +1,6 @@
 package es.uah.matcomp.mp.e1.ejerciciosclases.P2.PointyLine;
 
+import es.uah.matcomp.mp.e1.ejerciciosclases.P2.Point.MyPoint;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
