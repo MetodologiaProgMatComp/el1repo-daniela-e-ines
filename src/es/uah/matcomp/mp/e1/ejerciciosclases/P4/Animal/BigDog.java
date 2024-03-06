@@ -8,6 +8,6 @@ public class BigDog extends Dog{
 
     @Override
     public void greets(Dog another) {
-        System.out.println("Wooooooow");;
+        System.out.println("Woooooooww");;
     }
 }
