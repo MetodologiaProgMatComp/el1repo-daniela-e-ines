@@ -18,6 +18,7 @@ public class MainMyLine {
 
         System.out.println("Lenght=" + l1.getLength());
         System.out.println("Gradient=" + l1.getGradient());
+
         MyLine l2 = new MyLine(new MyPoint(2,3), new MyPoint(3,6));
         System.out.println(l2);
 

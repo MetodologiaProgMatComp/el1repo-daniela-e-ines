@@ -11,7 +11,7 @@ public class MainMyTriangle {
         System.out.println("Perimeter t1=" + t1.getPerimeter());
         System.out.println("Type t1:"+t1.getType());
 
-        MyTriangle t2 = new MyTriangle(new MyPoint(), new MyPoint(3,3), new MyPoint(7,8));
+        MyTriangle t2 = new MyTriangle(new MyPoint(), new MyPoint(3,5), new MyPoint(6,0));
         System.out.println(t2);
 
         System.out.println("Perimeter t2=" + t2.getPerimeter());

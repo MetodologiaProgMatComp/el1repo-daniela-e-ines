@@ -18,18 +18,19 @@ public class MainMyCircle {
         System.out.println(c2);
 
         c2.setCenter(new MyPoint());
+        c2.setRadius(2);
         System.out.println(c2);
 
-        c2.setCenterXY(10, 10);
+        c2.setCenterXY(0, 4);
         System.out.println("El nuevo valor es: " + Arrays.toString(c2.getCenterXY()));
 
-        MyCircle c3 = new MyCircle(new MyPoint(2,2), 4);
+        MyCircle c3 = new MyCircle(new MyPoint(6,2), 4);
         System.out.println(c3);
 
         c3.setCenterX(3);
-        c3.setCenterY(5);
+        c3.setCenterY(0);
         System.out.println("El nuevo valor del centro es: (" + c3.getCenterX() + "," + c3.getCenterY() + ")");
 
-        System.out.println("La distancia entre c1 y c3 es: " + c3.distance(c1));
+        System.out.println("La distancia entre c2 y c3 es: " + c2.distance(c3));
     }
 }
